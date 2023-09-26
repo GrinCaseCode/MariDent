@@ -1,0 +1,1597 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+.title-big {
+    font-size: 43px;
+}
+.descr-big {
+    font-size: 32px;
+    }
+    .billbord .descr-big {
+    margin-bottom: 19px;
+}
+.list-page li {
+    font-size: 16px;
+    }
+    body {
+    	font-size: 14px;
+    }
+    .item-billbord__image {
+    height: 370px;
+}
+.menu a {
+    font-size: 13px;
+    }
+    .logo img {
+    width: 170px;
+}
+.item-header {
+    font-size: 11px;
+    }
+    .phone-main {
+    font-size: 13px;
+}
+.header .btn-main {
+    height: 50px;
+    font-size: 13px;
+    padding: 0 33px;
+}
+.location-dropdown__value {
+    min-width: 195px;
+    height: 50px;
+}
+.header {
+    font-size: 13px;
+    }
+    .item-billbord__content {
+    max-width: 189px;
+    padding: 13px;
+    padding-bottom: 14px;
+}
+.text-small {
+	font-size: 13px;
+}
+.title-small {
+	font-size: 16px;
+}
+.billbord .btn-main {
+    margin-top: 30px;
+}
+.btn-main {
+    height: 56px;
+    padding: 0 25px;
+   font-size: 14px;
+}
+.billbord {
+    padding-top: 195px;
+    padding-bottom: 53px;
+    }
+    .title-section {
+    font-size: 31px;
+    padding-top: 37px;
+    padding-bottom: 17px;
+}
+.descr-section {
+    font-size: 16px;
+    padding-bottom: 30px;
+    max-width: 730px;
+    }
+    .item-service__image {
+    width: 170px;
+    height: 170px;
+}
+.item-service__title {
+    font-size: 18px;
+    width: 165px;
+    height: 128px;
+    margin-bottom: 25px;
+    }
+    .item-service {
+   padding: 20px;
+   padding-top: 0;
+}
+.item-service__text {
+	font-size: 14px;
+}
+.row {
+	margin: 0 -10px;
+}
+.row > div {
+	padding: 0 10px;
+}
+.row_main > div {
+	margin-bottom: 20px;
+}
+.consultation-block .title-section {
+    padding-bottom: 30px;
+    font-size: 34px;
+    max-width: 530px;
+    }
+    .consultation-block__left {
+    padding-left: 40px;
+}
+.descr-consultation {
+    font-size: 28px;
+    padding-bottom: 35px;
+    }
+    .text-consultation {
+    max-width: 407px;
+}
+.title-form {
+    font-size: 22px;
+    padding-bottom: 12px;
+    }
+    .item-form {
+    margin-bottom: 15px;
+}
+.item-form .jq-selectbox__select-text,
+.item-form input, 
+.item-form textarea {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 13px;
+    }
+    .block-form .btn-main {
+    margin-top: 10px;
+}
+.block-form {
+    padding: 20px 39px;
+    padding-bottom: 32px;
+    }
+    .checkbox {
+    	margin-top: 20px;
+    }
+    .consultation {
+    padding-bottom: 50px;
+}
+.item-review__image, .item-issue__image {
+    padding: 15px 18px;
+    padding-bottom: 38px;
+    height: 315px;
+    }
+    .slider-issues .slick-slide {
+    	padding: 0 10px;
+    }
+    .slider-issues {
+    	margin: 0 -10px;
+    }
+    .item-issue__title {
+    height: 80px;
+    padding: 0 25px;
+    font-size: 18px;
+    margin: 0 19px;
+    margin-top: -21px;
+}
+.link-page {
+    font-size: 14px;
+    }
+    .bottom-button .btn-main {
+    font-size: 13px;
+    padding: 0 35px;
+    height: 53px;
+}
+.bottom-button {
+    padding-top: 38px;
+    }
+    .issues {
+    	padding-bottom: 50px;
+    }
+    .team .title-section {
+    padding-bottom: 28px;
+}
+.item-team {
+    padding: 17px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    }
+    .slider-team .slick-slide {
+    	padding: 0 8px;
+    }
+    .slider-team {
+    	margin: 0 -8px;
+    }
+    .item-team__content {
+    padding: 9px;
+    padding-top: 8px;
+    padding-bottom: 13px;
+}
+.item-tag {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-right: 5px;
+    }
+    .team {
+    padding-bottom: 45px;
+}
+.clinics .descr-section {
+    padding-bottom: 23px;
+    max-width: 680px;
+}
+.slider-clinic__item {
+    height: 300px;
+}
+.block-clinics__phone {
+    font-size: 27px;
+    }
+    .block-clinic {
+    padding: 20px 20px;
+}
+.block-clinic__time {
+    font-size: 13px;
+    }
+    .block-clinic__title {
+    font-size: 18px;
+}
+.tags-clinic a {
+    font-size: 13px;
+    padding: 3px 7px;
+    margin-top: 6px;
+    margin-right: 5px;
+    }
+    .tags-clinic a {
+    font-size: 13px;
+    padding: 3px 7px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.tags-clinic {
+    max-width: 445px;
+    }
+    .block-contacts .btn-main, .block-clinic .btn-main {
+    margin-top: 23px;
+    padding: 0 17px;
+    height: 47px;
+    font-size: 13px;
+}
+.clinics {
+	padding-bottom: 40px;
+}
+.slider-reviews .slick-slide, .slider-promotion .slick-slide {
+	padding: 0 10px;
+}
+.slider-reviews, 
+.slider-promotion {
+	margin: 0 -10px;
+}
+.item-promotion__image img {
+    max-width: 175px;
+    }
+    .item-promotion {
+    padding: 20px 75px;
+    padding-left: 195px;
+    min-height: 242px;
+    padding-bottom: 15px;
+}
+.item-promotion__time {
+    padding: 2px 8px;
+    padding-bottom: 4px;
+    padding-right: 18px;
+    top: 16px;
+    font-size: 12px;
+    }
+    .item-promotion__title {
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+.item-promotion__subtitle {
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-bottom: 12px;
+    }
+    .price-old {
+    margin-right: 40px;
+}
+.price-main {
+    font-size: 18px;
+    }
+.descr-promotion {
+    margin-top: 18px;
+     font-size: 12px;
+}
+.badge-promotion {
+    width: 66px;
+    height: 66px;
+    top: 12px;
+    right: 12px;
+    font-size: 19px;
+    }
+    .item-review__image {
+    height: 431px;
+}
+.item-review__image {
+    height: 365px;
+}
+.item-review .title-small {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.item-review__content {
+    margin: 0 20px;
+    margin-top: -20px;
+    padding: 20px;
+    padding-top: 15px;
+    }
+    .slider-reviews .slick-slide {
+    	padding-bottom: 12px;
+    }
+    .reviews {
+    	padding-bottom: 40px;
+    }
+    .slider-documents {
+    padding: 0 50px;
+}
+.item-document {
+    height: 233px;
+    padding: 10px;
+    margin: 3px 6px;
+    }
+    .item-question__head {
+    font-size: 16px;
+    padding: 15px 15px;
+}
+.item-question__content {
+	padding: 15px;
+	padding-bottom: 20px;
+}
+.title-middle {
+    font-size: 22px;
+    }
+    .documents .title-middle {
+    padding-top: 9px;
+    padding-bottom: 19px;
+}
+.item-question {
+    margin-bottom: 11px;
+    }
+    .contacts .title-section {
+    padding-bottom: 31px;
+}
+.location {
+    font-size: 16px;
+    margin-bottom: 4px;
+    }
+    .phone-contact {
+    font-size: 18px;
+}
+.line-location {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    }
+    .time-contacts {
+    font-size: 13px;
+}
+.block-contacts {
+    padding: 20px 20px;
+    }
+    #map {
+    height: 454px;
+}
+.contacts {
+    padding-bottom: 47px;
+}
+.row div.col__services {
+    padding-left: 35px;
+}
+.footer {
+    padding-top: 30px;
+    font-size: 13px;
+    }
+    .footer .logo {
+    margin-top: -8px;
+    margin-bottom: 46px;
+}
+.item__footer {
+    margin-bottom: 20px;
+}
+.footer__title {
+	font-size: 15px;
+}
+.list-socials a {
+    font-size: 22px;
+    }
+    .menu a {
+    font-size: 12px;
+}
+.btn-menu::after, .sandwich::after {
+	top: 12px;
+	bottom: 12px;
+}
+.slider-billbord .slick-dots {
+    bottom: 88px;
+}
+.item-service__price {
+    font-size: 16px;
+    }
+    .item-team__image {
+    height: 260px;
+}
+.tabs a {
+    height: 50px;
+    min-width: 246px;
+    padding: 0 25px;
+    }
+    .clinics-contacts {
+    padding-bottom: 35px;
+}
+.subtitle-middle {
+    font-size: 18px;
+    }
+    .block-transport {
+    padding: 17px 30px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+#map-transport {
+    height: 437px;
+    }
+    .contacts-transport {
+    padding-bottom: 49px;
+}
+.page-contacts .title-section {
+	padding-bottom: 20px;
+}
+.wrapper_page {
+	padding-top: 140px;
+}
+.breadcrumbs {
+	font-size: 13px;
+}
+.item-form_search input {
+	padding-right: 55px;
+}
+.icon-search {
+    width: 53px;
+    font-size: 16px;
+    }
+    .search-filter {
+    padding: 28px 24px;
+}
+.row_team > div {
+    margin-bottom: 20px;
+}
+.unit-team {
+    padding: 20px;
+    margin-right: -20px;
+    }
+    .item-form textarea {
+    padding-top: 15px;
+    height: 80px;
+}
+.unit-team .title-section {
+    font-size: 27px;
+    }
+    .card-team .block-form .title-form {
+    font-size: 17px;
+    padding-bottom: 7px;
+}
+.unit-team__image {
+    height: 411px;
+    }
+    .descr-form {
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.card-team .block-form {
+    margin-left: -20px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 50px;
+    }
+    .card-team .block-form .checkbox {
+    margin-top: 15px;
+}
+.tabs-page a {
+    height: 53px;
+    padding: 0 40px;
+    }
+    .tab-container-page {
+    padding: 25px 30px;
+}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.logo img {
+    width: 140px;
+}
+.phone-main {
+    font-size: 12px;
+}
+.header {
+    font-size: 12px;
+}
+.location-dropdown__value {
+    min-width: 171px;
+    height: 47px;
+}
+.header .btn-main {
+    height: 43px;
+    font-size: 12px;
+    padding: 0 20px;
+}
+.btn-menu {
+    width: 55px;
+    height: 52px;
+}
+.menu a {
+    font-size: 12px;
+}
+.title-big {
+    font-size: 35px;
+}
+.descr-big {
+    font-size: 25px;
+}
+.billbord .descr-big {
+    margin-bottom: 13px;
+}
+.list-page li {
+    font-size: 14px;
+}
+.item-billbord__image {
+    height: 315px;
+}
+.slider-billbord .slick-dots {
+    bottom: 65px;
+}
+.item-billbord__content {
+    max-width: 170px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.text-small {
+    font-size: 12px;
+}
+.item-service__title {
+    font-size: 16px;
+    width: 140px;
+    height: 105px;
+    margin-bottom: 20px;
+}
+.item-service__image {
+    width: 136px;
+    height: 136px;
+}
+.item-service__price {
+    font-size: 14px;
+    }
+    .item-service__text {
+    font-size: 13px;
+}
+.title-form {
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.block-form {
+    padding: 15px 20px;
+    padding-bottom: 20px;
+}
+.item-form {
+    margin-bottom: 8px;
+}
+.block-form .btn-main {
+    margin-top: 5px;
+}
+.item-form .jq-selectbox__select-text,
+.item-form input, 
+.item-form textarea {
+    height: 43px;
+    padding: 0 15px;
+    font-size: 12px;
+}
+.consultation-block .title-section {
+    padding-bottom: 20px;
+    font-size: 29px;
+    max-width: 452px;
+}
+.descr-consultation {
+    font-size: 23px;
+    padding-bottom: 24px;
+}
+.item-issue__title {
+    height: 70px;
+    padding: 0 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    margin-top: -17px;
+    margin-bottom: 10px;
+}
+.item-review__image, .item-issue__image {
+    padding: 15px 15px;
+    padding-bottom: 33px;
+    height: 270px;
+}
+.tags-clinic a {
+    font-size: 12px;
+    }
+    .block-contacts .btn-main, .block-clinic .btn-main {
+    margin-top: 20px;
+    padding: 0 14px;
+    height: 44px;
+    font-size: 12px;
+}
+.block-clinics__phone {
+    font-size: 23px;
+}
+.block-clinic__title {
+    font-size: 15px;
+}
+.block-clinic__time {
+    font-size: 12px;
+}
+.block-clinic {
+    padding: 15px 15px;
+}
+.block-clinic__head {
+    padding-bottom: 14px;
+    margin-bottom: 8px;
+    }
+    .slider-clinic__item {
+    height: 260px;
+}
+.item-clinic {
+    margin-bottom: 20px;
+}
+.item-promotion {
+    padding: 20px 46px;
+    padding-left: 165px;
+    min-height: 215px;
+    padding-bottom: 15px;
+}
+.item-promotion__title {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.item-promotion__subtitle {
+    font-size: 13px;
+    padding-bottom: 11px;
+    margin-bottom: 9px;
+}
+.descr-promotion {
+    margin-top: 14px;
+}
+.slider-reviews .slick-slide, .slider-promotion .slick-slide {
+    padding: 0 5px;
+}
+.slider-reviews,
+ .slider-promotion {
+   margin: 0 -5px;
+}
+.item-promotion__image img {
+    max-width: 156px;
+}
+.item-promotion__time {
+	font-size: 10px;
+}
+.badge-promotion {
+    width: 56px;
+    height: 56px;
+    top: 8px;
+    right: 8px;
+    font-size: 15px;
+}
+.promotions {
+    padding-bottom: 39px;
+}
+.item-review__image {
+	height: 293px;
+}
+.slider-reviews .slick-slide {
+	padding-bottom: 12px;
+}
+.item-review__content {
+    margin: 0 15px;
+    margin-top: -15px;
+    padding: 15px;
+    padding-top: 10px;
+}
+.item-review .title-small {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 11px;
+    }
+    .slider-documents {
+    padding: 0 40px;
+}
+.item-document {
+    height: 173px;
+    padding: 7px;
+    margin: 2px 4px;
+}
+.item-question__head {
+    font-size: 14px;
+}
+.contacts .title-section {
+    padding-bottom: 22px;
+}
+.title-section {
+    font-size: 27px;
+    padding-top: 30px;
+}
+.location {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.line-location {
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+}
+.time-contacts {
+    font-size: 11px;
+}
+.block-contacts {
+    padding: 15px 15px;
+}
+.phone-contact {
+    font-size: 16px;
+}
+#map {
+    height: 400px;
+}
+.footer {
+    padding-top: 28px;
+    font-size: 11px;
+}
+.footer .logo {
+	margin-bottom: 30px;
+}
+.footer__title {
+    font-size: 14px;
+}
+.row div.col__services {
+    padding-left: 25px;
+}
+.billbord {
+    padding-top: 170px;
+    }
+    .wrapper_page {
+    	padding-top: 121px;
+    }
+    .tabs a {
+    min-width: 225px;
+}
+.subtitle-middle {
+    font-size: 16px;
+}
+.block-transport .subtitle-middle {
+    margin-bottom: 10px;
+}
+.block-transport {
+    padding: 15px 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.search-filter {
+    padding: 20px 15px;
+}
+.search-filter .row {
+	margin: 0 -6px;
+}
+.search-filter .row > div {
+	padding: 0 6px;
+}
+.card-team .block-form {
+	padding-left: 40px;
+}
+.item-form textarea {
+    padding-top: 15px;
+    height: 90px;
+}
+.unit-team .title-section {
+    font-size: 22px;
+}
+.unit-team__info {
+    padding: 12px 14px;
+    margin-bottom: 13px;
+    padding-bottom: 18px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu-wrapper .menu,
+	.header__wrapper .btn-main,
+	.header__wrapper .location-dropdown,
+.header__wrapper .item-header {
+	display: none;
+}
+.header__wrapper {
+	justify-content: center;
+	position: relative;
+}
+.btn-menu {
+    top: -56px;
+    left: 0px;
+	width: 40px;
+height: 40px;
+border-radius: 50%;
+	position: absolute;
+	background-color: #007181;
+}
+.btn-menu::after, .sandwich::after {
+	display: none;
+}
+.header-bottom .container {
+	position: relative;
+}
+.logo img {
+	width: 160px;
+}
+.phone-mobile {
+	width: 40px;
+height: 40px;
+top: 9px;
+right: 0px;
+font-size: 15px;
+position: absolute;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+background-color: #0095AA;
+}
+.header-top .container {
+	position: relative;
+}
+.header {
+	border-bottom: 1px solid rgba(182, 199, 193, 0.50);
+}
+.header-top {
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+.billbord {
+	padding-top: 102px;
+}
+.title-big {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.descr-big {
+    font-size: 20px;
+}
+.billbord .descr-big {
+    margin-bottom: 23px;
+}
+.list-page li {
+    font-size: 13px;
+}
+.billbord .list-page {
+	margin-bottom: 8px;
+}
+.hidden-mobile {
+	display: none !important;
+}
+.billbord {
+	padding-bottom: 33px;
+	background: #F2FAFD;
+}
+.item-billbord__content {
+	display: none;
+}
+.slider-billbord .slick-slide {
+	padding: 15px;
+}
+.slider-billbord {
+	margin: 0 -15px;
+}
+.slider-billbord .slick-dots {
+	bottom: 30px;
+}
+.item-billbord__image {
+    height: 420px;
+}
+.billbord .btn-main {
+    margin-top: 15px;
+}
+.descr-small {
+	font-size: 12px;
+	max-width: 280px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: left;
+}
+.billbord .hidden-desktop {
+	text-align: center;
+}
+.btn-main {
+    height: 50px;
+    padding: 0 25px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.title-section {
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.descr-section {
+    font-size: 14px;
+    padding-bottom: 25px;
+    }
+    .item-service__price,
+    .item-service__text {
+    	display: none;
+    }
+    .item-service__image {
+    	height: 146px;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	border-radius: 20px;
+    	position: relative;
+    }
+    .item-service {
+    	padding: 0;
+    }
+    .item-service__title {
+    	padding: 10px;
+    	padding-bottom: 16px;
+    	font-size: 16px;
+    	border: none;
+    	margin: 0;
+    	height: auto;
+    }
+    .row {
+    	margin: 0 -4px;
+    }
+    .row > div {
+    	padding: 0 4px;
+    }
+    .row_main > div {
+    	margin-bottom: 8px;
+    }
+    .item-service__image img,
+    .item-service__image {
+    	border-radius: 20px;
+    }
+    .consultation-block {
+    	border-radius: 20px;
+    	background-image: none;
+    }
+    .consultation-block__left {
+    	padding: 19px 15px;
+    	padding-bottom: 225px;
+    	border-radius: 20px;
+    	background-image: url(../img/bg_mob_consult.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+    	position: relative;
+    }
+     .consultation-block__left::after {
+     	position: absolute;
+     	display: block;
+     	content: " ";
+     	width: 165px;
+     	height: 204px;
+     	bottom: 0;
+     	left: 0;
+     	right: 0;
+     	margin: 0 auto;
+     	background-image: url(../img/phone_mob.png);
+     	background-repeat: no-repeat;
+     	background-position: center;
+     	background-size: cover;
+     }
+    .consultation-block .title-section {
+    padding-bottom: 11px;
+    font-size: 20px;
+    max-width: 307px;
+}
+.descr-consultation {
+    font-size: 18px;
+    padding-bottom: 11px;
+}
+.text-consultation {
+	font-size: 12px;
+	line-height: 140%;
+	max-width: 317px;
+}
+.block-form {
+	padding: 20px 30px;
+	padding-bottom: 30px;
+}
+.title-form {
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+.item-form .jq-selectbox__select-text,
+.item-form input,
+ .item-form textarea {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.item-form {
+    margin-bottom: 12px;
+}
+.block-form .checkbox {
+	white-space: nowrap;
+}
+.consultation {
+	padding-bottom: 40px;
+}
+.documents .title-section, .documents .descr-section, .issues .title-section, .issues .descr-section {
+	text-align: left;
+}
+.slider-reviews .slick-prev, .slider-promotion .slick-prev, .slider-team .slick-prev, .slider-issues .slick-prev {
+	left: 0;
+}
+.slider-reviews .slick-next, .slider-promotion .slick-next, .slider-team .slick-next, .slider-issues .slick-next {
+	right: 0;
+}
+.slick-arrow {
+	width: 38px;
+height: 38px;
+color: #0095AA;
+border: 1px solid #0095AA;
+background-color: #fff;
+}
+.slider-issues {
+	padding-bottom: 35px;
+}
+.item-issue__image {
+	height: 286px;
+}
+.bottom-button .btn-main {
+	padding: 0 13px;
+	min-width: 251px;
+}
+.bottom-button {
+    padding-top: 32px;
+}
+.issues {
+	padding-bottom: 40px;
+}
+.team .title-section span {
+	display: block;
+}
+.team .title-section {
+	padding-bottom: 23px;
+}
+.slider-team .slick-slide {
+	padding: 0 4px;
+}
+.slider-team {
+	margin: 0 -4px;
+}
+.item-team {
+	padding: 7px;
+	padding-bottom: 12px;
+}
+.item-team__image {
+	height: 171px;
+}
+.item-team__content {
+	width: 100%;
+}
+.btn-video {
+    width: 22px;
+    height: 15px;
+    right: 0;
+    top: 0;
+    }
+    .btn-video::before {
+    width: 18px;
+    height: 13px;
+}
+.title-small {
+	font-size: 12px;
+	line-height: 140%;
+}
+.item-team .title-small {
+    margin-bottom: 1px;
+}
+.descr-team {
+	font-size: 11px;
+	padding-bottom: 3px;
+	line-height: 160%;
+}
+.item-tag {
+	margin-top: 3px;
+}
+.slider-team {
+	padding-bottom: 35px;
+}
+.item-team__bottom .link-page {
+	font-size: 13px;
+}
+.team {
+	padding-bottom: 35px;
+}
+.block-clinic__time {
+	display: none;
+}
+.item-clinic {
+	margin-bottom: 8px;
+	border-radius: 15px;
+background: #0095AA;
+}
+.item-clinic__content {
+	padding: 15px;
+	padding-top: 0;
+	display: none;
+}
+.block-clinic__content {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px dashed #fff;
+}
+.block-clinics__phone {
+    font-size: 26px;
+}
+.block-clinic .btn-main {
+	padding: 0 10px;
+	width: 266px;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.block-clinic__head {
+	padding: 13px 15px;
+	border: none;
+	align-items: flex-start;
+	margin-bottom: 0;
+}
+.block-clinic__head i {
+	font-size: 10px;
+	top: 8px;
+	position: relative;
+	display: block;
+	transition: all 0.3s;
+		transform: rotate(0deg);
+}
+.item-clinic.active .block-clinic__head i {
+	transform: rotate(180deg);
+}
+.item-clinic:first-child .item-clinic__content {
+	display: block;
+}
+.block-clinic {
+	padding: 0;
+}
+.slider-clinic .slick-arrow {
+    width: 38px;
+    height: 38px;
+    font-size: 11px;
+    }
+    .slider-clinic .slick-prev {
+    left: -15px;
+}
+.slider-clinic .slick-next {
+    right: -15px;
+    }
+.clinics {
+	padding-top: 10px;
+    padding-bottom: 32px;
+}
+.item-promotion {
+	padding: 70px 24px;
+	padding-bottom: 0;
+}
+.item-promotion__bottom {
+	min-height: 200px;
+	padding-top: 28px;
+	padding-left: 160px;
+	display: block;
+}
+.prices-wrap {
+	display: block;
+}
+.price-old {
+	margin: 0;
+	font-size: 16px;
+	margin-bottom: 4px;
+	display: block;
+}
+.price-main {
+	font-size: 20px;
+	display: block;
+}
+.item-promotion__image img {
+    max-width: 164px;
+}
+.item-promotion__subtitle {
+	font-size: 16px;
+}
+.item-promotion__subtitle strong {
+	display: block;
+}
+.item-promotion__title {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.item-promotion__time {
+    font-size: 13px;
+    top: 24px;
+}
+.badge-promotion {
+    width: 68px;
+    height: 68px;
+    top: 13px;
+    right: 10px;
+    font-size: 20px;
+}
+.slider-promotion {
+	padding-bottom: 38px;
+}
+.promotions .bottom-button {
+    padding-top: 22px;
+}
+.promotions {
+    padding-bottom: 35px;
+}
+.item-review__image {
+    height: 344px;
+}
+body {
+    font-size: 13px;
+}
+.reviews .title-section {
+    padding-top: 21px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.documents .descr-section {
+	max-width: 297px;
+}
+.slider-documents {
+	padding: 0;
+	padding-bottom: 33px;
+}
+.item-document {
+    height: 227px;
+    max-width: 165px;
+    margin: 0 auto;
+}
+.documents .title-middle {
+    padding-top: 14px;
+    padding-bottom: 16px;
+}
+.title-middle {
+    font-size: 20px;
+}
+.item-question__head {
+    font-size: 16px;
+    padding: 12px 14px;
+}
+.item-question {
+    margin-bottom: 7px;
+}
+.documents {
+    padding-bottom: 28px;
+}
+.contacts .title-section {
+    padding-bottom: 18px;
+}
+#map {
+	height: 459px;
+	margin-top: -25px;
+}
+.block-contacts {
+	position: relative;
+	z-index: 2;
+}
+.contacts {
+	padding-bottom: 25px;
+}
+.footer__left {
+	display: flex;
+	align-items: center;
+}
+.footer .logo {
+	margin-right: 13px;
+	flex: none;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.footer__descr {
+	font-size: 12px;
+	line-height: 140%;
+}
+.row div.col__services {
+	padding-left: 4px;
+}
+.footer {
+    padding-top: 16px;
+    font-size: 14px;
+}
+.footer__nav {
+	font-size: 13px;
+}
+.footer__title {
+	margin-top: 12px;
+}
+.wrapper-items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -4px;
+}
+.item__footer {
+	padding: 0 4px;
+	width: 50%;
+}
+.footer__socials .list-socials {
+	justify-content: flex-start;
+}
+.footer__socials {
+    text-align: left;
+}
+.footer-bottom {
+	font-size: 13px;
+	margin-top: 25px;
+}
+.btn_top {
+	display: none !important;
+}
+.btn-menu::before {
+	border-radius: 50%;
+}
+.menu-dropdown {
+	left: -15px;
+	right: -15px;
+	padding: 15px;
+	padding-bottom: 80px;
+	width: initial;
+	border-radius: 0;
+	background-color: #fff;
+	max-height: 100vh;
+	overflow: auto;
+}
+.phone-main {
+    font-size: 13px;
+}
+.item-header {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.menu-dropdown__nav a {
+	padding: 10px 0;
+	    color: #444;
+	    border-bottom: 1px solid #444;
+	display: block;
+}
+.menu-dropdown__nav a:hover {
+	border-color: #444;
+}
+.menu-dropdown__nav li {
+	margin-bottom: 0;
+}
+.location-dropdown__value {
+	border-color: #ccc;
+	border-radius: 15px;
+}
+.menu-dropdown__mobile .menu-dropdown__nav {
+	padding-bottom: 15px;
+}
+.location-dropdown {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.menu-dropdown .btn-main {
+	margin-bottom: 10px;
+}
+.header.active {
+	background-color: #fff;
+}
+.wrapper_page {
+	padding-top: 71px;
+}
+.page-contacts {
+	padding-top: 10px;
+}
+.page-contacts {
+    padding-bottom: 45px;
+    }
+    .clinics-contacts {
+    	padding-top: 13px;
+    }
+    .clinics-contacts .title-section {
+    	padding-bottom: 15px;
+    }
+    .tabs a {
+    	padding: 0 15px;
+    	margin: 0 3px;
+    	min-width: initial;
+    }
+    .clinics-contacts .tabs {
+    	display: none;
+    }
+    .clinics-contacts .tab-pane {
+    	display: block !important;
+    }
+    .clinics-contacts .item-clinic:first-child .item-clinic__content {
+    	display: none;
+    }
+    .clinics-contacts .tab-pane:first-child .item-clinic__content {
+    	display: block;
+    }
+    .contacts-transport	.title-section {
+    	padding-bottom: 22px;
+    }
+    .contacts-transport {
+    	padding-top: 12px;
+    }
+    #map-transport {
+    height: 360px;
+}
+.block-transport {
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+.contacts-transport {
+	padding-bottom: 38px;
+}
+.search-filter .item-form {
+	margin-bottom: 15px;
+}
+.col-btn {
+	width: 100%;
+}
+.col-btn .btn-main {
+	width: 100%;
+}
+.breadcrumbs + .title-section {
+	padding-bottom: 22px;
+}
+.row_team > div {
+	margin-bottom: 8px;
+}
+.item-team {
+	border-radius: 15px;
+}
+.item-form .jq-selectbox__dropdown li {
+	font-size: 14px;
+	padding: 5px 15px;
+}
+.unit-team {
+	margin: 0;
+	margin-bottom: 20px;
+	min-height: initial;
+}
+.card-team .block-form {
+	margin: 0;
+	padding-left: 30px;
+}
+.unit-team .title-section {
+    font-size: 20px;
+}
+.tab-container-page {
+	padding: 20px;
+}
+.card-team {
+    padding-bottom: 37px;
+}
+.item-form textarea {
+    padding-top: 15px;
+    height: 90px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.item-billbord__image {
+    height: 292px;
+}
+.unit-team__image {
+	margin-bottom: 20px;
+}
+.tabs-page a {
+    height: 47px;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 130%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.item-billbord__image {
+    height: 240px;
+}
+.item-billbord__image,
+.item-billbord__image img {
+	border-radius: 20px;
+}
+.slider-clinic__item {
+	height: 171px;
+}
+.unit-team__image {
+    height: 335px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.hidden-desktop {
+	display: none !important;
+}
+.slider-billbord {
+  margin-left: -12%;
+  margin-right: -12%;
+}
+.slider-billbord .slick-list {
+  padding-top: 10%!important;
+  padding-bottom: 10%!important;
+  margin: -10% -4% !important;
+  padding-left: 15%!important;
+  padding-right: 15%!important;
+}
+.slider-billbord .slick-track {
+  max-width: 100%!important;
+  transform: translate3d(0, 0, 0)!important;
+  perspective: 100px;
+}
+.slider-billbord .slick-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  width: 100%!important;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1s, opacity 1s;
+}
+.slider-billbord .slick-snext,
+.slider-billbord .slick-sprev,
+.slider-billbord .slick-snext2,
+.slider-billbord .slick-sprev2{
+  display: block;
+}
+.slider-billbord .slick-current {
+  opacity: 1;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+.slider-billbord .slick-sprev {
+  opacity: 1;
+  transform: translate3d(-10%, 0, -10px);
+}
+.slider-billbord .slick-current .item-billbord__content {
+	opacity: 1;
+}
+.menu-dropdown__mobile {
+	display: none;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1370px;
+}
+}
