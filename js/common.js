@@ -18,6 +18,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
   $menu.removeClass("fixed").addClass("default");
 }
 
+
+{
+  if ($(window).width() < 992) { 
+
+    $('.location').click(function() {
+      $('html').animate({ 
+        scrollTop: $("#map").offset().top - 60
+      }, 1000 
+      );
+    }); 
+  }
+}
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -29,11 +42,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		if ($(".menu-dropdown").is(":hidden")) {
 			$(".menu-dropdown").slideDown(200);
       $(".header").addClass("active");
-		} else {
-			$(".menu-dropdown").slideUp(200);
-      $(".header").removeClass("active");
-		}
-	});
+    } else {
+     $(".menu-dropdown").slideUp(200);
+     $(".header").removeClass("active");
+   }
+ });
 
 
   $("*[data-video-id]").modalVideo();
@@ -239,7 +252,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().parent().parent().parent().toggleClass("active");
   });
 
-$('.tabs li a').click(function(event) {
+  $('.tabs li a').click(function(event) {
     event.preventDefault();
     $(this).parent().parent().find("li").removeClass('active');
     $(this).parent().addClass('active');
@@ -249,7 +262,7 @@ $('.tabs li a').click(function(event) {
     $(this).parent().parent().siblings().find(".slider-clinic").slick('refresh');
   }); 
 
-$('.tabs-page li a').click(function(event) {
+  $('.tabs-page li a').click(function(event) {
     event.preventDefault();
     $(this).parent().parent().find("li").removeClass('active');
     $(this).parent().addClass('active');
