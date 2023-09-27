@@ -252,6 +252,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().parent().parent().parent().toggleClass("active");
   });
 
+  $(".item-sidebar__head").click(function() {
+    $(this).siblings(".item-sidebar__content").slideToggle(200);
+    $(this).parent().toggleClass("active");
+    $(this).parent().siblings(".item-sidebar").removeClass("active");
+    $(this).parent().siblings(".item-sidebar").find(".item-sidebar__content").slideUp(200);
+  });
+
   $('.tabs li a').click(function(event) {
     event.preventDefault();
     $(this).parent().parent().find("li").removeClass('active');

@@ -3,7 +3,7 @@
     .title-big {
         font-size: 43px;
     }
-    .descr-big {
+    .descr-big { 
         font-size: 32px;
     }
     .billbord .descr-big {
@@ -48,12 +48,12 @@
         padding-bottom: 14px;
     }
     .text-small {
-       font-size: 13px;
-   }
-   .title-small {
-       font-size: 16px;
-   }
-   .billbord .btn-main {
+     font-size: 13px;
+ }
+ .title-small {
+     font-size: 16px;
+ }
+ .billbord .btn-main {
     margin-top: 30px;
 }
 .btn-main {
@@ -86,8 +86,8 @@
     margin-bottom: 25px;
 }
 .item-service {
- padding: 20px;
- padding-top: 0;
+   padding: 20px;
+   padding-top: 0;
 }
 .item-service__text {
 	font-size: 14px;
@@ -138,7 +138,7 @@
     padding-bottom: 32px;
 }
 .checkbox {
-   margin-top: 20px;
+ margin-top: 20px;
 }
 .consultation {
     padding-bottom: 50px;
@@ -149,10 +149,10 @@
     height: 315px;
 }
 .slider-issues .slick-slide {
-   padding: 0 10px;
+ padding: 0 10px;
 }
 .slider-issues {
-   margin: 0 -10px;
+ margin: 0 -10px;
 }
 .item-issue__title {
     height: 80px;
@@ -173,7 +173,7 @@
     padding-top: 38px;
 }
 .issues {
-   padding-bottom: 50px;
+ padding-bottom: 50px;
 }
 .team .title-section {
     padding-bottom: 28px;
@@ -184,10 +184,10 @@
     font-size: 13px;
 }
 .slider-team .slick-slide {
-   padding: 0 8px;
+ padding: 0 8px;
 }
 .slider-team {
-   margin: 0 -8px;
+ margin: 0 -8px;
 }
 .item-team__content {
     padding: 9px;
@@ -311,10 +311,10 @@
     padding-top: 15px;
 }
 .slider-reviews .slick-slide {
-   padding-bottom: 12px;
+ padding-bottom: 12px;
 }
 .reviews {
-   padding-bottom: 40px;
+ padding-bottom: 40px;
 }
 .slider-documents {
     padding: 0 50px;
@@ -505,7 +505,7 @@
     padding-bottom: 15px;
 }
 .table-main th {
-    padding: 5px 15px;
+    padding: 15px 15px;
 }
 .table-main td {
     padding: 10px 15px;
@@ -537,6 +537,88 @@
 }
 .block-promotion__image {
     height: 309px;
+}
+.page-services .item-service__title {
+    height: 109px;
+}
+.page-services .item-service__text {
+    max-width: 243px;
+}
+.nav-service a {
+    height: 50px;
+    padding: 0 16px;
+    min-width: 205px;
+}
+.item-therapy {
+    padding: 17px;
+}
+.item-therapy__title {
+    font-size: 17px;
+    min-height: 60px;
+    padding-bottom: 10px;
+}
+.item-therapy .price-main {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.item-therapy__text {
+    font-size: 13px;
+}
+.item-therapy .link-page {
+    margin-top: 14px;
+}
+.section-text h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.text-columns {
+    column-gap: 16px;
+}
+.section-text {
+    padding-bottom: 50px;
+}
+.item-therapy__image {
+    height: 150px;
+}
+.service-main__content {
+    padding: 0px 30px;
+}
+.item-serv {
+    padding: 30px 0;
+    font-size: 16px;
+    max-width: 245px;
+}
+.row_buttons {
+    margin: 0 -5px;
+}
+.row_buttons > div {
+    padding: 0 5px;
+}
+.section-article .list-page li {
+    font-size: 14px;
+}
+.section-article .title-text {
+    padding-bottom: 16px;
+}
+.section-article {
+    padding-bottom: 40px;
+}
+.comparsion-block {
+    padding: 25px 60px;
+    padding-bottom: 42px;
+}
+.comparsion-block .row {
+    margin: 0 -25px;
+}
+.comparsion-block .row > div {
+    padding: 0 25px;
+}
+.item-comparsion__content {
+    margin: 0 90px;
+    margin-top: -25px;
+}
+.item-comparsion__image {
+    height: 270px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -705,9 +787,9 @@
     }
     .slider-reviews,
     .slider-promotion {
-     margin: 0 -5px;
- }
- .item-promotion__image img {
+       margin: 0 -5px;
+   }
+   .item-promotion__image img {
     max-width: 156px;
 }
 .item-promotion__time {
@@ -799,7 +881,7 @@
     padding-top: 170px;
 }
 .wrapper_page {
-   padding-top: 121px;
+ padding-top: 121px;
 }
 .tabs a {
     min-width: 225px;
@@ -866,7 +948,69 @@
 .item-sidebar__content li a {
     padding: 9px 15px;
 }
+.nav-service a {
+    height: 48px;
+    padding: 0 14px;
+    min-width: 176px;
 }
+.item-therapy__title {
+    font-size: 14px;
+    min-height: 50px;
+}
+.item-therapy__image {
+    height: 135px;
+}
+.item-therapy .price-main {
+    font-size: 16px;
+}
+.service-main {
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+.service-main__content {
+    padding: 0;
+}
+.item-serv__icon {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 18px;
+}
+.item-serv {
+    padding: 20px 0;
+    font-size: 14px;
+    max-width: 208px;
+}
+.row_buttons .btn-main {
+    font-size: 12px;
+}
+.title-text + .descr-section {
+    padding-top: 9px;
+}
+.page-service .descr-section {
+    padding-bottom: 17px;
+}
+.page-service {
+    padding-bottom: 45px;
+}
+.comparsion-block {
+    padding: 23px 40px;
+    padding-bottom: 36px;
+}
+.comparsion-block .title-text {
+    padding-bottom: 20px;
+}
+.comparsion-block .row > div {
+    padding: 0 15px;
+}
+.comparsion-block .row {
+    margin: 0 -15px;
+}
+.item-comparsion__image {
+    height: 210px;
+}
+}
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -874,13 +1018,13 @@
 	.header__wrapper .btn-main,
 	.header__wrapper .location-dropdown,
     .header__wrapper .item-header {
-       display: none;
-   }
-   .header__wrapper {
-       justify-content: center;
-       position: relative;
-   }
-   .btn-menu {
+     display: none;
+ }
+ .header__wrapper {
+     justify-content: center;
+     position: relative;
+ }
+ .btn-menu {
     top: -56px;
     left: 0px;
     width: 40px;
@@ -993,53 +1137,53 @@
 }
 .item-service__price,
 .item-service__text {
-   display: none;
+ display: none;
 }
 .item-service__image {
-   height: 146px;
-   top: 0;
-   left: 0;
-   width: 100%;
-   border-radius: 20px;
-   position: relative;
+ height: 146px;
+ top: 0;
+ left: 0;
+ width: 100%;
+ border-radius: 20px;
+ position: relative;
 }
 .item-service {
-   padding: 0;
+ padding: 0;
 }
 .item-service__title {
-   padding: 10px;
-   padding-bottom: 16px;
-   font-size: 16px;
-   border: none;
-   margin: 0;
-   height: auto;
+ padding: 10px;
+ padding-bottom: 16px;
+ font-size: 16px;
+ border: none;
+ margin: 0;
+ height: auto;
 }
 .row {
-   margin: 0 -4px;
+ margin: 0 -4px;
 }
 .row > div {
-   padding: 0 4px;
+ padding: 0 4px;
 }
 .row_main > div {
-   margin-bottom: 8px;
+ margin-bottom: 8px;
 }
 .item-service__image img,
 .item-service__image {
-   border-radius: 20px;
+ border-radius: 20px;
 }
 .consultation-block {
-   border-radius: 20px;
-   background-image: none;
+ border-radius: 20px;
+ background-image: none;
 }
 .consultation-block__left {
-   padding: 19px 15px;
-   padding-bottom: 225px;
-   border-radius: 20px;
-   background-image: url(../img/bg_mob_consult.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   position: relative;
+ padding: 19px 15px;
+ padding-bottom: 225px;
+ border-radius: 20px;
+ background-image: url(../img/bg_mob_consult.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ position: relative;
 }
 .consultation-block__left::after {
   position: absolute;
@@ -1432,9 +1576,9 @@ body {
 }
 .menu-dropdown__nav a {
 	padding: 10px 0;
-   color: #444;
-   border-bottom: 1px solid #444;
-   display: block;
+ color: #444;
+ border-bottom: 1px solid #444;
+ display: block;
 }
 .menu-dropdown__nav a:hover {
 	border-color: #444;
@@ -1470,33 +1614,33 @@ body {
     padding-bottom: 45px;
 }
 .clinics-contacts {
-   padding-top: 13px;
+ padding-top: 13px;
 }
 .clinics-contacts .title-section {
-   padding-bottom: 15px;
+ padding-bottom: 15px;
 }
 .tabs a {
-   padding: 0 15px;
-   margin: 0 3px;
-   min-width: initial;
+ padding: 0 15px;
+ margin: 0 3px;
+ min-width: initial;
 }
 .clinics-contacts .tabs {
-   display: none;
+ display: none;
 }
 .clinics-contacts .tab-pane {
-   display: block !important;
+ display: block !important;
 }
 .clinics-contacts .item-clinic:first-child .item-clinic__content {
-   display: none;
+ display: none;
 }
 .clinics-contacts .tab-pane:first-child .item-clinic__content {
-   display: block;
+ display: block;
 }
 .contacts-transport	.title-section {
-   padding-bottom: 22px;
+ padding-bottom: 22px;
 }
 .contacts-transport {
-   padding-top: 12px;
+ padding-top: 12px;
 }
 #map-transport {
     height: 360px;
@@ -1560,12 +1704,8 @@ body {
 }
 .table-main {
     margin-bottom: 25px;
-    margin-right: -15px;
-    overflow: auto;
 }
-.table-main table {
-    width: 700px;
-}
+
 .table-main td:first-child {
     max-width: 220px;
 }
@@ -1630,6 +1770,169 @@ body {
 .clinics-contacts .tab-container {
     padding-top: 7px;
 }
+.page-services .item-service__title {
+    font-size: 14px;
+    height: auto;
+}
+.item-service .link-page {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.page-services {
+    padding-bottom: 22px;
+}
+.nav-service {
+    margin: 0 -2px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.nav-service li {
+    margin-right: 0px;
+    margin-bottom: 5px;
+    padding: 0 2px;
+    width: 50%;
+}
+.nav-service a {
+    min-width: initial;
+}
+.item-therapy {
+    padding: 10px;
+    padding-bottom: 17px;
+}
+.item-therapy__image {
+    height: 86px;
+}
+.item-therapy__text {
+    font-size: 11px;
+}
+.item-therapy__title {
+    font-size: 13px;
+}
+.item-therapy .price-main {
+    font-size: 14px;
+}
+.item-therapy .link-page {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.page-therapy {
+    padding-bottom: 25px;
+}
+.text-columns {
+    columns: initial;
+}
+.section-text h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.section-text {
+    padding-bottom: 38px;
+}
+.service-main {
+    padding: 10px;
+    border-radius: 15px;
+}
+.breadcrumbs li::after {
+    margin: 0 5px;
+}
+.item-serv {
+    font-size: 12px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 0;
+    max-width: 100%;
+}
+.item-serv br {
+    display: none;
+}
+.row_serv > div {
+    border: none;
+}
+.item-serv__icon {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    margin-right: 11px;
+}
+.service-main__image {
+    margin-bottom: 15px;
+}
+.row_buttons {
+    padding: 0 30px;
+}
+.row_buttons .btn-main {
+    margin-bottom: 11px;
+}
+.title-text {
+    font-size: 20px;
+}
+.table-main td {
+    padding: 10px 8px;
+    font-size: 12px;
+    line-height: 140%;
+}
+.table-main td:first-child {
+    padding-right: 9px;
+}
+.table-main th {
+    font-size: 12px;
+    padding: 10px 8px;
+}
+.page-service {
+    padding-bottom: 35px;
+}
+.section-article .title-text {
+    padding-bottom: 15px;
+}
+.section-article .list-page li {
+    font-size: 13px;
+}
+.video-main__image {
+    height: 279px;
+}
+.video-main__image img {
+    width: 100%;
+    height: 100%;
+    max-width: initial;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+}
+.video-main__text {
+    left: 50px;
+    right: 50px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.section-article .bottom-button {
+    padding-top: 22px;
+}
+.section-article {
+    padding-bottom: 30px;
+}
+.comparsion-block {
+    padding: 20px 11px;
+    padding-bottom: 0;
+}
+.item-comparsion__image {
+    height: 174px;
+}
+.item-comparsion__content .subtitle-middle {
+    font-size: 14px;
+}
+.item-comparsion__content {
+    margin: 0 58px;
+    margin-top: -20px;
+}
+.item-comparsion {
+    margin-bottom: 35px;
+}
+.comparsion {
+    padding-bottom: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1638,9 +1941,9 @@ body {
         height: 292px;
     }
     .unit-team__image {
-       margin-bottom: 20px;
-   }
-   .tabs-page a {
+     margin-bottom: 20px;
+ }
+ .tabs-page a {
     height: 47px;
     padding: 0 8px;
     font-size: 12px;
@@ -1655,12 +1958,12 @@ body {
     }
     .item-billbord__image,
     .item-billbord__image img {
-       border-radius: 20px;
-   }
-   .slider-clinic__item {
-       height: 171px;
-   }
-   .unit-team__image {
+     border-radius: 20px;
+ }
+ .slider-clinic__item {
+     height: 171px;
+ }
+ .unit-team__image {
     height: 335px;
 }
 }
@@ -1691,54 +1994,54 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .hidden-desktop {
-       display: none !important;
-   }
-   .slider-billbord {
-      margin-left: -12%;
-      margin-right: -12%;
-  }
-  .slider-billbord .slick-list {
-      padding-top: 10%!important;
-      padding-bottom: 10%!important;
-      margin: -10% -4% !important;
-      padding-left: 15%!important;
-      padding-right: 15%!important;
-  }
-  .slider-billbord .slick-track {
-      max-width: 100%!important;
-      transform: translate3d(0, 0, 0)!important;
-      perspective: 100px;
-  }
-  .slider-billbord .slick-slide {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      opacity: 0;
-      width: 100%!important;
-      transform: translate3d(0, 0, 0);
-      transition: transform 1s, opacity 1s;
-  }
-  .slider-billbord .slick-snext,
-  .slider-billbord .slick-sprev,
-  .slider-billbord .slick-snext2,
-  .slider-billbord .slick-sprev2{
-      display: block;
-  }
-  .slider-billbord .slick-current {
-      opacity: 1;
-      position: relative;
-      display: block;
-      z-index: 2;
-  }
-  .slider-billbord .slick-sprev {
-      opacity: 1;
-      transform: translate3d(-10%, 0, -10px);
-  }
-  .slider-billbord .slick-current .item-billbord__content {
-   opacity: 1;
+     display: none !important;
+ }
+ .slider-billbord {
+  margin-left: -12%;
+  margin-right: -12%;
+}
+.slider-billbord .slick-list {
+  padding-top: 10%!important;
+  padding-bottom: 10%!important;
+  margin: -10% -4% !important;
+  padding-left: 15%!important;
+  padding-right: 15%!important;
+}
+.slider-billbord .slick-track {
+  max-width: 100%!important;
+  transform: translate3d(0, 0, 0)!important;
+  perspective: 100px;
+}
+.slider-billbord .slick-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  width: 100%!important;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1s, opacity 1s;
+}
+.slider-billbord .slick-snext,
+.slider-billbord .slick-sprev,
+.slider-billbord .slick-snext2,
+.slider-billbord .slick-sprev2{
+  display: block;
+}
+.slider-billbord .slick-current {
+  opacity: 1;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+.slider-billbord .slick-sprev {
+  opacity: 1;
+  transform: translate3d(-10%, 0, -10px);
+}
+.slider-billbord .slick-current .item-billbord__content {
+ opacity: 1;
 }
 .menu-dropdown__mobile {
 	display: none;

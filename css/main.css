@@ -377,7 +377,6 @@ form {
 }
 .btn-main:hover {
 	box-shadow: 0 5px 15px #16BCF9;
-	transform: scale(1.02);
 }
 .billbord .btn-main {
 	margin-top: 50px;
@@ -730,6 +729,7 @@ form {
 	font-weight: 500;
 	line-height: 140%;
 	display: inline-block;
+	transition: all 0.3s;
 }
 .link-page:hover {
 	border-color: transparent;
@@ -1982,3 +1982,317 @@ form {
 .block-promotion .price-main {
 	font-size: 24px;
 }
+.item-service .link-page {
+	margin-top: auto;
+}
+.page-services .item-service__title {
+	height: 120px;
+}
+.page-services .item-service__text {
+	margin-bottom: 14px;
+	max-width: 260px;
+}
+.page-services .item-service {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.page-services {
+	padding-bottom: 30px;
+}
+.nav-service {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+.nav-service li {
+	margin-right: 9px;
+}
+.nav-service a {
+	height: 54px;
+	padding: 0 20px;
+	min-width: 241px;
+	color: #0095AA;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid #0095AA;
+}
+.nav-service .active a,
+.nav-service a:hover {
+	background: #007181;
+	border-color: #007181;
+	color: #fff;
+}
+.item-therapy {
+	padding: 25px;
+	border-radius: 20px;
+	background: #F4FAFD;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transition: all 0.7s;
+}
+.item-therapy__image {
+	height: 166px;
+	margin-bottom: 9px;
+	border-radius: 15px;
+	display: block;
+	width: 100%;
+}
+.item-therapy__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 15px;
+}
+.item-therapy__title {
+	font-size: 20px;
+	min-height: 70px;
+	padding-bottom: 12px;
+	margin-bottom: 9px;
+	border-bottom: 1px dashed #0095AA;
+	color: #004D58;
+	display: block;
+	font-weight: 800;
+	line-height: 140%;
+	width: 100%;
+}
+.item-therapy .price-main {
+	font-size: 18px;
+	padding-bottom: 12px;
+	margin-bottom: auto;
+	width: 100%;
+}
+.item-therapy__text {
+	font-size: 14px;
+	line-height: 160%;
+	width: 100%;
+	display: block;
+	margin-top: auto;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+.item-therapy .link-page {
+	margin-top: 17px;
+}
+.item-therapy:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 15px #a6c9d5;
+}
+.page-therapy {
+	padding-bottom: 35px;
+}
+.section-text {
+	padding-bottom: 60px;
+	line-height: 140%;
+	font-weight: 400;
+}
+.section-text h2 {
+	font-size: 26px;
+	margin-bottom: 32px;
+	font-weight: 700;
+	line-height: 140%;
+}
+.text-columns {
+	columns: 2;
+	column-gap: 24px;
+}
+.service-main__image img {
+	border-radius: 15px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.service-main {
+	padding: 23px 26px;
+	margin-bottom: 35px;
+	border-radius: 20px;
+	background: #F4FAFD;
+}
+.item-serv {
+	padding: 45px 0;
+	font-size: 18px;
+	max-width: 270px;
+	font-weight: 600;
+	line-height: 140%;
+	display: flex;
+	align-items: center;
+}
+.item-serv__icon {
+	width: 60px;
+	height: 60px;
+	margin-right: 27px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: none;
+}
+.item-serv__icon img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.row_serv > div {
+	border-bottom: 1px dashed #0095AA;
+}
+.service-main__content {
+	padding: 0 40px;
+}
+.row_serv > div:nth-last-child(-n+2) {
+	border: none;
+}
+.row_buttons {
+	margin: 0 -6px;
+}
+.row_buttons > div {
+	padding: 0 6px;
+}
+.row_buttons .btn-main {
+	padding: 0;
+	width: 100%;
+}
+.title-text + .descr-section {
+	padding-top: 15px;
+}
+.page-service .descr-section {
+	padding-bottom: 23px;
+}
+.page-service .table-main td:nth-child(2) {
+	width: initial;
+}
+.page-service .table-main td:first-child {
+	max-width: initial;
+}
+.page-service .bottom-button {
+	padding-top: 0;
+}
+.section-article .title-text {
+	padding-bottom: 28px;
+	color: #444;
+}
+.page-service {
+	padding-bottom: 60px;
+}
+.section-article .list-page li {
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	line-height: 140%;
+}
+.video-main {
+	display: block;
+	position: relative;
+}
+.video-main__image {
+	display: block;
+}
+.video-main__image img {
+	max-width: 100%;
+	border-radius: 20px;
+	height: auto;
+	display: block;
+}
+.video-main__text {
+	padding: 10px 20px;
+	padding-right: 57px;
+	border-radius: 15px;
+	bottom: 11px;
+	left: 11px;
+	background: #FFF;
+	box-shadow: 0px 4px 6px 0px rgba(0, 149, 170, 0.10);
+	font-weight: 400;
+	display: inline-block;
+	color: #444;
+	position: absolute;
+}
+.video-main__icon {
+	width: 52px;
+	height: 37px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	display: block;
+	z-index: 1;
+}
+.video-main__icon::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 30px;
+	height: 24px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #fff;
+	z-index: -1;
+}
+.video-main__icon::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-image: url(../img/play.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+.section-article {
+	padding-bottom: 50px;
+}
+.comparsion-block {
+	padding: 25px 90px;
+	padding-bottom: 52px;
+	border-radius: 20px;
+	background: #F4FAFD;
+}
+.item-comparsion__image {
+	height: 300px;
+	border-radius: 20px;
+}
+.item-comparsion__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 20px;
+}
+.item-comparsion__content {
+	margin: 0 114px;
+	margin-top: -25px;
+	padding: 19px 10px;
+	border-radius: 15px;
+	background: #FFF;
+	box-shadow: 0px 4px 6px 0px rgba(0, 149, 170, 0.10);
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.comparsion-block .title-text {
+	padding-bottom: 31px;
+	text-align: center;
+}
+.comparsion-block .row {
+	margin: 0 -35px;
+}
+.comparsion-block .row > div {
+	padding: 0 35px;
+} 
