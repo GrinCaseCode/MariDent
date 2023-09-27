@@ -259,6 +259,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-sidebar").find(".item-sidebar__content").slideUp(200);
   });
 
+  $(".item-question__head").click(function() {
+    $(this).parent().toggleClass("active");
+    $(this).siblings().slideToggle(200);
+    $(this).parent().siblings(".item-question").removeClass("active");
+    $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+  });
+
   $('.tabs li a').click(function(event) {
     event.preventDefault();
     $(this).parent().parent().find("li").removeClass('active');

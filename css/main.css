@@ -1274,6 +1274,10 @@ form {
 	justify-content: center;
 	flex: none;
 	margin-left: 10px;
+	transition: all 0.3s;
+}
+.item-question.active .item-question__head i {
+	transform: rotate(180deg);
 }
 .title-middle {
 	font-size: 24px;
