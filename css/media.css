@@ -159,6 +159,7 @@
     padding: 0 25px;
     font-size: 18px;
     margin: 0 19px;
+    margin-bottom: 12px;
     margin-top: -21px;
 }
 .link-page {
@@ -620,6 +621,22 @@
 .item-comparsion__image {
     height: 270px;
 }
+.about-main__content {
+    padding-left: 30px;
+    }
+    .about-main p {
+    margin-bottom: 21px;
+}
+.page-about ~ .documents {
+    margin-bottom: 40px;
+}
+.page-problems .table-main th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.item-review__slider .slick-dots {
+    bottom: 50px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1008,6 +1025,25 @@
 }
 .item-comparsion__image {
     height: 210px;
+}
+.about-main__content {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.about-main p {
+    margin-bottom: 15px;
+}
+.page-about ~ .documents {
+    margin-bottom: 0;
+}
+.page-problems .table-main td:last-child {
+    width: 285px;
+}
+.item-review__slider {
+    margin-bottom: -20px;
+}
+.item-review__slider .slick-dots {
+    bottom: 42px;
 }
 }
 
@@ -1932,6 +1968,59 @@ body {
 }
 .comparsion {
     padding-bottom: 20px;
+}
+.about-main__image {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.about-main__content {
+    padding: 0;
+}
+.about-main {
+    padding: 15px;
+    padding-bottom: 25px;
+    }
+    .about-main .btn-main {
+        padding-top: 0;
+    }
+    .page-about {
+        padding-bottom: 20px;
+    }
+    .nav-service.nav-service_tabs {
+        padding-bottom: 10px;
+        justify-content: flex-start;
+        overflow: auto;
+        margin-right: -15px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .nav-service a {
+        padding: 0 10px;
+        height: 42px;
+        border-radius: 10px;
+    }
+    .tab-container-service {
+    padding-top: 17px;
+}
+.tab-container-service .title-section {
+    padding-bottom: 15px;
+}
+.page-problems .table-main th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-problems .table-main td:last-child {
+    width: 100px;
+    text-align: center;
+}
+.page-problems .table-main th:last-child {
+    text-align: center;
+}
+.page-problems {
+    padding-bottom: 15px;
+}
+.page-problems ~ .team {
+    padding-bottom: 15px;
 }
 }
 

@@ -157,6 +157,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     {
       breakpoint: 992,
       settings: {
+       slidesToShow: 3,
+       slidesToScroll: 2,
+       arrows: false,
+       dots: true,
+     }
+   },
+    {
+      breakpoint: 768,
+      settings: {
        slidesToShow: 2,
        slidesToScroll: 2,
        arrows: false,
@@ -203,6 +212,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     dots: false,
     infinite: true,
     touchThreshold: 1000,
+    swipe: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
@@ -222,6 +232,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     }
     ]
   });
+
+  $('.item-review__slider').slick({
+    arrows: false,
+    dots: true,
+    infinite: true,
+    touchThreshold: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+    nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+  });
+
   $('.slider-documents').slick({
     arrows: true,
     dots: false,
@@ -235,6 +257,16 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     responsive: [
     {
       breakpoint: 992,
+      settings: {
+       rows: 1,
+       slidesToShow: 3,
+       slidesToScroll: 2,
+       arrows: false,
+       dots: true,
+     }
+   },
+   {
+      breakpoint: 768,
       settings: {
        rows: 1,
        slidesToShow: 2,
@@ -283,6 +315,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parents().find(".tab-pane-page").fadeOut(0);
     var selectTab2 = $(this).attr("href");
     $(selectTab2).fadeIn(200);
+  }); 
+
+   $('.nav-service_tabs li a').click(function(event) {
+    event.preventDefault();
+    $(this).parent().parent().find("li").removeClass('active');
+    $(this).parent().addClass('active');
+    $(this).parents().find(".tab-pane-service").fadeOut(0);
+    var selectTab3 = $(this).attr("href");
+    $(selectTab3).fadeIn(200);
   }); 
 
   $(".input-phone").mask("+7 (999) 999-99-99");

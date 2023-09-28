@@ -821,6 +821,7 @@ form {
 }
 .slider-team .slick-slide > div {
 	display: flex;
+	width: 100%;
 }
 .slider-team {
 	margin: 0 -12px;
@@ -2300,3 +2301,139 @@ form {
 .comparsion-block .row > div {
 	padding: 0 35px;
 } 
+.about-main {
+	padding: 20px;
+	border-radius: 20px;
+background: #F4FAFD;
+}
+.about-main__image {
+	margin-right: -15px;
+}
+.about-main__image img {
+	border-radius: 15px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.about-main p {
+	margin-bottom: 24px;
+}
+.about-main .btn-main {
+	margin-top: 15px;
+}
+.about-main__content {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+.page-about ~ .documents {
+	margin-bottom: 50px;
+}
+.nav-service.nav-service {
+	justify-content: center;
+	margin-bottom: 0;
+}
+.tab-container-service .title-section {
+	padding-top: 0;
+	text-align: center;
+}
+.tab-container-service {
+	padding-top: 23px;
+}
+.page-problems .table-main td:first-child {
+	padding-right: 25px;
+	max-width: initial;
+}
+.page-problems .table-main td:last-child {
+	width: 350px;
+}
+.page-problems .table-main th {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.page-problems .table-main {
+	margin-bottom: 0;
+}
+.tab-pane-service {
+	display: none;
+}
+.tab-pane-service:first-child {
+	display: block;
+}
+.info-text .title-text {
+		margin-bottom: 19px;
+	font-weight: 600;
+}
+.text-big {
+	font-size: 18px;
+	line-height: 160%;
+	font-weight: 400;
+}
+.text-big p {
+	margin-bottom: 20px;
+}
+.info-text {
+	padding: 34px 31px;
+	padding-bottom: 44px;
+	padding-right: 90px;
+	margin-bottom: 19px;
+	border-radius: 20px;
+background: #F4FAFD;
+}
+.info-text p {
+	margin: 0;
+}
+.text-big li {
+	padding-left: 15px;
+	position: relative;
+}
+.text-big li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "•";
+}
+.text-big ul {
+	margin-bottom: 20px;
+}
+.alert-text {
+	padding: 35px 44px;
+	padding-bottom: 41px;
+	padding-left: 114px;
+	margin-top: 10px;
+	color: #007181;
+	font-weight: 600;
+	border-radius: 20px;
+background: #D6EEF1;
+position: relative;
+}
+.alert-text p {
+	margin: 0;
+}
+.alert-text::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 40px;
+	width: 50px;
+height: 50px;
+background-color: #007181;
+border-radius: 50%;
+	background-image: url(../img/alert.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section-services .item-service__text {
+	max-width: 260px;
+}
+.item-review__slider .slick-dots {
+    bottom: 56px;
+}
+.item-review__slider {
+    margin-bottom: -25px;
+}
+.item-review__slider .slick-slide {
+	padding: 0 !important;
+}
