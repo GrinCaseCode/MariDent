@@ -298,6 +298,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
   });
 
+   $(".dropdown-category__head").click(function() {
+    $(this).siblings(".dropdown-category__content").slideToggle(200);
+    $(this).parent().toggleClass("active");
+  });
+
   $('.tabs li a').click(function(event) {
     event.preventDefault();
     $(this).parent().parent().find("li").removeClass('active');
