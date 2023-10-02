@@ -257,11 +257,14 @@ form {
 .menu {
 	margin: 0 26px;
 	display: flex;
-	align-items: center;
 	flex: 1;
 	justify-content: space-between;
 }
-.menu a {
+.menu > li {
+	display: flex;
+	align-items: center;
+}
+.menu > li > a {
 	font-size: 15px;
 	color: #fff;
 	font-weight: 600;
@@ -269,7 +272,7 @@ form {
 	text-transform: uppercase;
 	border-bottom: 1px solid transparent;
 }
-.menu a:hover {
+.menu > li > a:hover {
 	border-color: #fff;
 }
 .btn-menu {
@@ -1491,13 +1494,13 @@ form {
 	position: absolute;
 	display: none;
 }
-.menu-dropdown__nav a {
+.menu-dropdown__nav > li > a {
 	font-weight: 600;
 	border-bottom: 1px solid transparent;
 	text-transform: uppercase;
 	color: #fff;
 }
-.menu-dropdown__nav a:hover {
+.menu-dropdown__nav > li > a:hover {
 	border-color: #fff;
 }
 .menu-dropdown__nav li {
@@ -2571,4 +2574,50 @@ form {
 }
 .page-categories-list .breadcrumbs {
 	padding-bottom: 0;
+}
+
+.menu-inner {
+	padding: 0 15px;
+	padding-bottom: 20px;
+	max-height: calc(100vh - 153px);
+	overflow: auto;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.menu > li:hover .menu-inner {
+	opacity: 1;
+	visibility: visible;
+}
+.menu-inner::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.menu-inner::-webkit-scrollbar:vertical {
+  width: 3px;
+}
+.menu-inner::-webkit-scrollbar:horizontal {
+  height: 3px;
+}
+.menu-inner::-webkit-scrollbar-thumb {
+  background-color: #007181;
+  border-radius: 10px;
+}
+.menu-inner::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ddd;
+}
+.menu-inner .title-section {
+	padding-top: 20px;
+	text-align: center;
+}
+.menu-inner .row > div {
+	margin-bottom: 20px;
+}
+.menu-wrapper {
+	display: flex;
+	flex: 1;
 }

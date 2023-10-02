@@ -48,6 +48,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
    }
  });
 
+  $(".has__child > a").click(function(e) {
+    e.preventDefault();
+    $(this).parent().toggleClass("active");
+   $(this).siblings(".menu-inner").slideToggle(200);
+ });
+
 
   $("*[data-video-id]").modalVideo();
 
